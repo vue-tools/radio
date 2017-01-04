@@ -1,14 +1,14 @@
 {
-  "name": "radio",
-  "version": "0.1.0",
+  "name": "vt-radio",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vue-tools/radio"
+    "url": "https://github.com/vue-tools/vt-radio"
   },
   "main": "dist/index.vue",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vue-tools/radio/issues"
+    "url": "https://github.com/vue-tools/vt-radio/issues"
   },
   "babel": {
     "presets": [
@@ -18,7 +18,7 @@
       "transform-runtime"
     ]
   },
-  "homepage": "https://github.com/vue-tools/radio#readme",
+  "homepage": "https://github.com/vue-tools/vt-radio#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.20.0",

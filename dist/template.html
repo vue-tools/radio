@@ -1,29 +1,13 @@
-<!--<div class="vt-radio-group">-->
-<!--<label v-for="item in options" class="vt-radio" @click="val = item">-->
-<!--<input class="vt-radio&#45;&#45;input" type="radio"-->
-<!--:value="item"-->
-<!--:checked="val == item"-->
-<!--:disabled="disabled">-->
-<!--<span class="vt-radio&#45;&#45;inner"-->
-<!--:disabled="disabled"-->
-<!--:checked="val == item"-->
-<!--&gt;</span>-->
-<!--<span class="vt-radio&#45;&#45;label"-->
-<!--:disabled="disabled"-->
-<!--:checked="val == item"-->
-<!--&gt;{{item}}</span>-->
-<!--</label>-->
-<!--</div>-->
-<label class="vt-radio">
-    <input class="vt-radio--input" type="radio"
+<label class="ui-radio">
+    <input class="ui-radio__input" type="radio"
            :value="val"
            v-model="model"
            :disabled="disabled">
-    <span class="vt-radio--inner"
+    <span class="ui-radio--inner"
           :disabled="disabled"
           :checked="checked"
     ></span>
-    <span class="vt-radio--label"
+    <span class="ui-radio__label"
           :disabled="disabled"
           :checked="checked"
     ><slot></slot></span>

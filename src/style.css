@@ -1,4 +1,4 @@
-.vt-radio {
+.ui-radio {
     white-space: nowrap;
     cursor: pointer;
     outline: none;
@@ -7,13 +7,13 @@
     vertical-align: middle;
 }
 
-.vt-radio--input {
+.ui-radio__input {
     position: absolute;
     opacity: 0;
     left: -9999px;
 }
 
-.vt-radio--inner {
+.ui-radio--inner {
     display: inline-block;
     position: relative;
     border: 1px solid #c0ccda;
@@ -26,7 +26,7 @@
     transition: border-color .25s cubic-bezier(.71, -.46, .29, 1.46), background-color .25s cubic-bezier(.71, -.46, .29, 1.46);
 }
 
-.vt-radio--inner:before {
+.ui-radio--inner:before {
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -39,23 +39,23 @@
     transition: transform .15s cubic-bezier(.71,-.46,.88,.6);
 }
 
-.vt-radio--inner[checked] {
+.ui-radio--inner[checked] {
     background-color: #20a0ff;
     border-color: #2e90fe;
 }
 
-.vt-radio--inner[checked]:before{
+.ui-radio--inner[checked]:before{
 }
-.vt-radio--inner[disabled]{
+.ui-radio--inner[disabled]{
     background-color: #eff2f7;
     border-color: #d3dce6;
     cursor: not-allowed;
 }
-.vt-radio--inner[disabled][checked]{
+.ui-radio--inner[disabled][checked]{
     background-color: #d3dce6;
     border-color: #d3dce6;
 }
-.vt-radio--label{
+.ui-radio__label{
     font-size: 14px;
     float: right;
     padding-left:5px;
