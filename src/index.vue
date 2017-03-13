@@ -23,6 +23,7 @@
                     return this.value
                 },
                 set(v){
+                    /* istanbul ignore next */
                     this.$emit('input', v)
                 }
             }

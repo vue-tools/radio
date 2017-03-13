@@ -1,7 +1,8 @@
 <label class="ui-radio">
     <input class="ui-radio__input" type="radio"
-           :value="val"
            v-model="model"
+           :value="val"
+           :checked="checked"
            :disabled="disabled">
     <span class="ui-radio--inner"
           :disabled="disabled"
